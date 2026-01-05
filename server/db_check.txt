@@ -1,0 +1,5 @@
+{
+  "total": 3704,
+  "validated": 1580,
+  "non_validated": 2124
+}
