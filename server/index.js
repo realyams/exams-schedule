@@ -254,7 +254,7 @@ app.post('/api/schedule/validate', authenticateToken, async (req, res) => {
     }
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`🚀 Serveur démarré sur http://localhost:${PORT}`);
 });
